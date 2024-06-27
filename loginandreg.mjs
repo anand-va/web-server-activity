@@ -13,9 +13,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Database configuration
 const dbConfig = {
-  user: 'newuser',
-  password: 'password',
-  host: 'localhost',
+  user: 'postgres',
+  password: 'xFoXWTIHTpPgCvgCWEHT',
+  host: 'database-test1.cbcawkakm9r8.us-east-1.rds.amazonaws.com',
   port: 5432, // Default PostgreSQL port
   database: 'postgres'
 };
